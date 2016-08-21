@@ -99,3 +99,10 @@ ensureResult = (url, animated) ->
       '$1/giphy.gif')
   else
     ensureImageExtension url
+
+# Forces the URL look like an image URL by adding `#.png`
+ensureImageExtension = (url) ->
+  if /(png|jpe?g|gif)$/i.test(url)
+    url
+  else
+    "#{url}#.png"
