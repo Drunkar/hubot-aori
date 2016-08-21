@@ -14,7 +14,6 @@
   "author": "Drunkar",
   "license": "MIT",
   "dependencies": {
-    "hubot-google-images": ">=0.2.6"
   },
   "devDependencies": {
   },
