@@ -1,0 +1,25 @@
+
+{
+  "name": "hubot-aori",
+  "version": "1.0.0",
+  "description": "Send aori image via hubot-google-images.",
+  "main": "index.coffee",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Drunkar/hubot-aori"
+  },
+  "keywords": [
+    "hubot"
+  ],
+  "author": "Drunkar",
+  "license": "MIT",
+  "dependencies": {
+    "hubot-google-images": ">=0.2.6"
+  },
+  "devDependencies": {
+  },
+  "bugs": {
+    "url": "https://github.com/Drunkar/hubot-aori/issues"
+  },
+  "homepage": "https://github.com/Drunkar/hubot-aori"
+}
