@@ -30,6 +30,9 @@ module.exports = (robot) ->
   robot.respond /(あおりいか|アオリイカ)/i, (msg) ->
     msg.send SQUID_IMAGE_URL
 
+  robot.hear /おはよう/i, (msg) ->
+    msg.send "うるせぇ"
+
 imageMe = (msg, query, animated, faces, cb) ->
   cb = animated if typeof animated == 'function'
   cb = faces if typeof faces == 'function'
